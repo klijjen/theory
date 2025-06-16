@@ -221,37 +221,6 @@ public abstract class DatabaseConnection {
 }
 ```
 
-## Статические методы и поля *
-
-Существуют статические поля и методы, которые не привязаны к конкретному объекту, а к самому классу, и доступ к ним нужно осуществлять уже из класса, а не объекта. Из этого следует, что поля будут в одном экземпляре на всю программу, так как класс всего один.
-
-```java
-public class Computer {
-  public static String name = "Computer"; // статическое поле
-
-  public static String getName() { // статический метод
-    return name;
-  }
-
-  public int cores;
-
-  public int getCores() {
-    return cores;
-  }
-}
-
-public class Main {
-  public static void main(String[] args) { // тоже статический метод
-    Computer computer1 = new Computer();
-    Computer computer2 = new Computer();
-
-    // попробуем вывести значение
-    System.out.println(computer1.name); // работать не будет, у объектов нет этого поля, только у класса
-    System.out.println(Computer.name); // сработает!
-  }
-}
-```
-
 ## SOLID *
 
 SOLID - аббревиатура нескольких принципов, позволяющих писать чистый поддерживаемый код.
