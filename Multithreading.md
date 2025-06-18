@@ -1,4 +1,4 @@
-# Способы создания 
+<img width="760" alt="image" src="https://github.com/user-attachments/assets/4124b299-2ea0-40af-ac6e-dd62c875f255" /># Способы создания 
 
 1) Унаследоваться от класса Thread
 2) Реализовать интерфейс Runnable
@@ -17,6 +17,24 @@
 # Атомарные типы данных 
 
 `private AtomicInteger value = new AtomicInteger()`
+
 `value.getAndIncrement()`
+
 `value.getAndDencrement()`
+
+в таком случае синхронизация, тк атомарные тд выполняют операции за одну итерацию 
+
+# Volotile
+
+Ключевое слово `volotile` запрещает кешировать переменную (сохранять значение в локал память)
+
+# CountDownLatch
+
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/71f07b3f-e935-44aa-a086-ae4ed2eb7bdb" />
+
+# ExecutorSerice
+
+<img width="760" alt="image" src="https://github.com/user-attachments/assets/4124b299-2ea0-40af-ac6e-dd62c875f255" />
+
+
    
