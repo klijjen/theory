@@ -49,3 +49,13 @@
   - COMMIT применяет транзакцию,
   - ROLLBACK откатывает все изменения, сделанные в контексте текущей транзакции,
   - SAVEPOINT разбивает транзакцию на более мелкие.
+
+```sql
+SELECT [DISTINCT | DISTINCTROW | ALL]
+  select_expression,...
+FROM table_references
+[WHERE where_definition]
+[GROUP BY {unsigned_integer | column | formula}]
+[HAVING where_definition]
+[ORDER BY {unsigned_integer | column | formula} [ASC | DESC], ...]
+```
