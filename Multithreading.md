@@ -37,4 +37,7 @@
 
 `executorSerice.shutdown()` - остановка сервиса
 
-   
+# Потокобезопасные коллекции 
+
+<img width="1111" alt="image" src="https://github.com/user-attachments/assets/24ff6e8c-c95e-4b16-b4ae-d760c3a8a161" />
+
