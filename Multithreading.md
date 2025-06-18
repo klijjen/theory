@@ -1,4 +1,3 @@
-<img width="760" alt="image" src="https://github.com/user-attachments/assets/4124b299-2ea0-40af-ac6e-dd62c875f255" /># Способы создания 
 
 1) Унаследоваться от класса Thread
 2) Реализовать интерфейс Runnable
@@ -34,7 +33,7 @@
 
 # ExecutorSerice
 
-<img width="760" alt="image" src="https://github.com/user-attachments/assets/4124b299-2ea0-40af-ac6e-dd62c875f255" />
+<img width="741" alt="image" src="https://github.com/user-attachments/assets/bbcb7008-b131-447e-bad5-d196ca32090a" />
 
 
    
