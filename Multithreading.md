@@ -35,5 +35,6 @@
 
 <img width="741" alt="image" src="https://github.com/user-attachments/assets/bbcb7008-b131-447e-bad5-d196ca32090a" />
 
+`executorSerice.shutdown()` - остановка сервиса
 
    
